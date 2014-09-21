@@ -5,11 +5,11 @@
 body {
 	font-family: 'Lato', Arial, sans-serif;
 	color: #555;
-	padding: 75px 125px;
+	padding: 40px 125px;
 }
 
 /*************************************
-FOOTER
+HEADER
 **************************************/
 
 header {
@@ -23,9 +23,10 @@ header {
 }
 h1 {
 	color: #555;
-	margin-left: 200px;
+	margin-left: 100px;
 	font-size: 10rem;
 	font-family: 'Amatic SC', cursive;
+	display: inline-block;
 }
 
 .nav-list li {
@@ -51,16 +52,18 @@ footer {
 	width: 100%;
 	height: 50px;
 	border-top: 1px solid #555;
+	padding: 10px 20px;
 }
 
 /*************************************
-RADIO
+Recorder
 **************************************/
 
 .recorder {
 	  font-size:200%;
-	  position: absolute;
-      top: 33px;
+	  position: relative;
+	  display: inline-block;
+	  top: 4px;
       left: 58px;
       width: 4em;
       height: 3em;
@@ -460,21 +463,23 @@ Media Queries
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1075px) {
-	body{padding: 30px 0px;}
+	body{padding: 40px 0px;}
 }
 /* Portrait tablets and small desktops */
 @media (max-width: 768px) {
+	h1{font-size: 8rem;}
 
 }
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
+@media (max-width: 600px) {
+	.recorder{left: 30px;}
+	h1{font-size: 6rem; margin-left: 60px;}
 }
 
 /* Phones and down */
 @media (max-width: 480px) {
-	h1{font-size: 5rem; margin-left: 210px;}
-	.recorder{top: 15px;}
+	.recorder {font-size:175%;}
+	h1{font-size: 5rem;}
 
 }
 
