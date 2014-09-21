@@ -473,13 +473,13 @@ Media Queries
 /* Landscape phones and portrait tablets */
 @media (max-width: 600px) {
 	.recorder{left: 30px;}
-	h1{font-size: 6rem; margin-left: 60px;}
+	h1{font-size: 6rem; margin-left: 50px;}
 }
 
 /* Phones and down */
 @media (max-width: 480px) {
 	.recorder {font-size:175%;}
-	h1{font-size: 5rem;}
+	h1{font-size: 4rem;}
 
 }
 
