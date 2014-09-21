@@ -12,7 +12,7 @@ body {
 HEADER
 **************************************/
 
-header {
+.header {
 	width: 100%;
 	height: 50px;
 	background-color: #555;
@@ -367,12 +367,11 @@ Movie information
 }
 
 .info p {
-	padding: 1.2em 1.4em;
+	padding: .4em 1.4em;
 	margin: 2px 0 0;
 	font-weight: 700;
 	color: #666;
 	line-height: 1.4em;
-	border-top: 10px solid #555;
 }
 
 /*************************************
@@ -410,27 +409,27 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/poster04.png);
 }
 
 .scene:nth-child(2) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/poster05.png);
 }
 
 .scene:nth-child(3) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/poster06.png);
 }
 
 .scene:nth-child(1) .info header {
-	background-image: url(../img/still01.jpg);
+	background-image: url(../img/still04.png);
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url(../img/still02.jpg);
+	background-image: url(../img/still05.png);
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url(../img/still03.jpg);
+	background-image: url(../img/still06.png);
 }
 
 /*************************************
